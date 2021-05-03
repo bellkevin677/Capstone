@@ -47,7 +47,7 @@ class Input extends Component {
   render() {
     const { image, price, stall, city } = this.state
     return (
-      <form onSubmit={this.handleSubmit} action="/site/index.html">
+      <form onSubmit={this.handleSubmit} action="https://zachmann00.wixsite.com/peddlersmall">
         <div className="field">
           {/* <div className="imgbox">
             <input
