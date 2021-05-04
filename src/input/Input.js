@@ -69,13 +69,16 @@ class Input extends Component {
               onChange={this.handlePriceChange}
               placeholder="Price"
             />
+            <h3>Price</h3>
             <input
               type="text"
               value={stall}
               onChange={this.handleStallChange}
               placeholder="Stall Number"
             />
+            <h3>Stall Number</h3>
             <select
+              className="drop"
               value={city}
               onChange={this.handleCityChange}
             >

@@ -1,3 +1,5 @@
+import "./Image.css"
+
 const React = require('react')
 class Image extends React.Component {
   constructor(props){

@@ -1,3 +1,7 @@
+html {
+    margin: 0;
+}
+
 .field {
     height: 100%;
     width: 100%;
@@ -37,7 +41,14 @@
     align-items: center;
 }
 
+label {
+    width: 65%;
+    height: 95%;
+}
+
 .imgbox {
+    width: 100%;
+    height: 100%;
     background-color: grey;
 }
 
@@ -50,3 +61,21 @@ input[type="file"] {
     width: 100%;
   }
 
+button {
+    font-size: 32px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+h3 {
+    color: white;
+    font-size: 8px;
+    margin-top: 0px;
+}
+
+.drop {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
