@@ -84,7 +84,7 @@ class Input extends Component {
             >
               <option value="All Stores">All Stores</option>
               <option value="Bardstown">Bardstown</option>
-              <option value="Cambellsville">Cambellsville</option>
+              <option value="Campbellsville">Campbellsville</option>
               <option value="Clarksville">Clarksville</option>
               <option value="Elizabethtown">Elizabethtown</option>
               <option value="Frankfort">Frankfort</option>
